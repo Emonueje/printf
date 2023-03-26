@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-
 /**
  * struct specifiers - Struct for format
  * @specifiers: Struct format

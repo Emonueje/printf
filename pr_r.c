@@ -21,6 +21,6 @@ int print_rev_string(va_list args)
 		count_fun += _putchar(s[i]);
 		i--;
 	}
-	ciunt_fun--;
+	count_fun--;
 	return (count_fun);
 }
