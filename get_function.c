@@ -21,6 +21,7 @@ int get_function(char con_spec, va_list args)
 		{'d', print_digit},
 		{'i', print_digit},
 		{'r', print_rev_string},
+		{'b', convert_to_bi},
 		{0, NULL}
 	};
 
