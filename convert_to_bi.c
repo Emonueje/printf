@@ -39,11 +39,11 @@ int convert_to_bi(va_list args)
 {
 	int decimal = va_arg(args, unsigned int);
 	int count_fun = 0, binary;
-
-	if (decimal < 0)
-		decimal *= -1;
+	
+	/* converting the decimal to binary */
 	binary = findbinary(decimal);
+	/* counting the number times printfunction is used
+	 * and printing the binary number */
 	count_fun += print_binary(binary);
 	return (count_fun);
 }
-
