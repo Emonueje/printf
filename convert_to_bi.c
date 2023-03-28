@@ -40,6 +40,8 @@ int convert_to_bi(va_list args)
 	int decimal = va_arg(args, unsigned int);
 	int count_fun = 0, binary;
 
+	if (decimal < 0)
+		decimal *= -1;
 	binary = findbinary(decimal);
 	count_fun += print_binary(binary);
 	return (count_fun);
